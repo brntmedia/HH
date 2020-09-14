@@ -146,8 +146,8 @@ body{
 .main{
     min-height: 100%;
     overflow: hidden;
-    border: black;
-    background-image: url("../img/4k.png");
+    background: black;
+    position: relative;
 }
 
 img{
