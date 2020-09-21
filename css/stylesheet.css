@@ -155,6 +155,12 @@ img{
     width: 100%;
 }
 
+.penis{
+    background: rosybrown;
+    width: 100%;
+    border: black;
+}
+
 footer{
     background: burlywood;
     color: #686868;
@@ -248,18 +254,17 @@ footer .footer-content .contact-form .contact-input {
     background: rgb(250, 223, 187);
     color: black;
     margin-bottom: 10px;
-    line-height: normal;
+    line-height: 1.5em;
     padding: .9em 1.4em;
     border-radius: 5px;
     border: none;
     box-sizing: border-box;
     display: flex;
-    width: 400px;
-    
+    width: 380px;
 }
 
 footer .footer-content .contact-form .message{
-    height: 30px;
+    height: auto;
 }
 
 footer .footer-content .contact-form .contact-input:focus{
