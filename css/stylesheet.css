@@ -155,12 +155,6 @@ img{
     width: 100%;
 }
 
-.penis{
-    background: rosybrown;
-    width: 100%;
-    border: black;
-}
-
 footer{
     background: burlywood;
     color: #686868;
@@ -311,5 +305,5 @@ footer .footer-bottom{
 }
 
 .footer-bottom span {
-    color: rgba(255, 0, 0, 0.589);
+    color: white;
 }

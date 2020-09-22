@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="myBtn">Open Modal</button>
+
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>some text in the modal..</p>
+        </div>
+    </div>
+    <button id="button">Book a Quote</button>
+    <div id="modalForm" class="form">
+        <div class="modal-form">          
+            <div class="formHeader">
+                <p class="gqTitle">Get quote</p>
+                <span class="mClose">&times;</span>
+            </div>
+            <div class="mode">  
+                <input type="text" name="name" placeholder="Name" class="m-form">
+                <input type="text" name="Phone" placeholder="Phone number" class="m-form">
+                <input type="email" name="email" placeholder="Email*" class="m-form">
+                <textarea placeholder= "I was wondering about availability and rates.  I need help with the following:" name="help"  class="m-form"></textarea>
+                <button type="submit" class="m-btn">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>
