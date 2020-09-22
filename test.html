@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                  <svg width="30" height="30">
+                      <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                      <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                      <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                  </svg>
+                </a>
+              </span>
+            <h1 class="logo">Helping<span class="hands">Hands</span></h1>
+            <span class="open-function">
+                <a href="#" onclick="openFunctionMenu()">
+                    <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+                </a>
+            </span> 
+            <div>
+                <ul class="callAction">
+                    <li class="right-menu"><button id="btn-modal">Book a Quote</button></li>
+                    <div id="modalForm" class="form">
+                        <div class="modal-form">          
+                            <div class="formHeader">
+                                <p class="gqTitle">Get quote</p>
+                                <span class="mClose">&times;</span>
+                            </div>
+                            <div class="mode">  
+                                <input type="text" name="name" placeholder="Name" class="m-form">
+                                <input type="text" name="Phone" placeholder="Phone number" class="m-form">
+                                <input type="email" name="email" placeholder="Email*" class="m-form">
+                                <textarea placeholder= "I was wondering about availability and rates.  I need help with the following:" name="help"  class="m-form"></textarea>
+                                <button type="submit" class="m-btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="right-menu"><a href=tel:+1-704-985-3148>Call Now</a></li>
+                </ul>
+            </div>
+            <div id="funSideMenu" class="call-menu">
+                <a href="#" class="btn-close" onclick="closeFunctionMenu()">&times;</a>
+                <a href="quote">Book a Quote</a>
+                <a href=tel:+1-704-985-3148>Call Now</a>
+            </div>
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+                <a href="updates">Updates</a>
+                <a href="testimonials">Testimonials</a>
+                <a href="about">About</a>
+                <a href="gallery">Gallery</a>
+                <a href="contactUs">Contact Us</a>
+            </div>
+        </nav> 
+        
+        
+    </header>
+        <script>
+            function openSlideMenu(){
+                document.getElementById('side-menu').style.width='250px';
+            }
+            function closeSideMenu(){
+                document.getElementById('side-menu').style.width='0';
+            }
+            function openFunctionMenu(){
+                document.getElementById('funSideMenu').style.width='250px';
+            }
+            function closeFunctionMenu(){
+                document.getElementById('funSideMenu').style.width='0'
+            }
+        </script>
+</body>
+</html>

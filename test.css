@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, serif;
+    background-color: #f4f4f4;
+}
+
+.logo{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 60px;
+    font-family: sans-serif;
+    align-items: center;    
+    color: black;
+}
+
+.logo .hands{
+    color: #ffff;
+}
+
+.navbar{
+    background-color: burlywood;
+    overflow: hidden;
+    height: 63px;
+}
+
+.navbar {
+    float: left;
+    display: block;
+    color: black;
+    align-items: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.btn-modal{
+    color: red;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+.open-function a{
+    float: right;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    
+}
+
+.callAction{
+    float: right;
+    display: flex;
+    padding-right: 15px;
+    font-weight: 600;
+}
+
+.callAction span{
+    background-color: #ddd;
+}
+
+.call-menu{
+    position: absolute;
+    float: right;
+    height: 250px;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    opacity: 0.8;
+    box-shadow: #ccc;
+    padding-top: 60px;
+    transition: 0.4s;
+    padding-top: 10px;
+    margin-top: 63px;
+    overflow-x: hidden;
+}
+
+.call-menu a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+    float: center;
+}
+
+/*.side-nav{
+    height: 250px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.8;
+    box-shadow: #ccc;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.4s;
+    padding-top: 10px;
+    margin-top: 63px;
+}
+
+/*.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+    float: center;
+}
+
+/*.side-nav a:hover{
+    background-color: burlywood;
+    color: #111;
+}
+
+/*.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left:50px;
+    padding: 5px 15px;
+}
+
+/*@media(max-width:600px){
+    .callAction{
+        display:none;
+    }
+}
+
+@media(min-width:600px){
+    .open-function{display:none}
+}

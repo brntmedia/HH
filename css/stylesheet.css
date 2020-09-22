@@ -143,15 +143,8 @@ body{
     .open-function{display:none}
 }
 
-.main{
-    min-height: 100%;
-    overflow: hidden;
-    background: black;
-    position: relative;
-}
-
-img{
-    height: 100%;
+.picture{
+    height: 90vh;
     width: 100%;
 }
 
@@ -161,6 +154,8 @@ footer{
     min-height: 400px;
     max-height: 750px;
     position: relative;
+    top: -5px;
+
 }
 
 footer .footer-content{
