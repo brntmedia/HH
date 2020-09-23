@@ -21,7 +21,7 @@ var openSideMenu=document.getElementById('openSlide');
 var closeSideMenu=document.getElementById('closeMenu');
 
 var funMenu=document.getElementById('funMenu');
-var openFunMenu=document.getElementsByClassName("open-function");
+var openFunMenu=document.getElementById("openFunction");
 var closeFunMenu=document.getElementById('closeFun');
 
 openSideMenu.onclick=function(){
@@ -30,18 +30,15 @@ openSideMenu.onclick=function(){
 closeSideMenu.onclick=function(){
     sideMenu.style.width='0px';
 }
-window.onclick=function(){
-    if(style.width == sideMenu){
-        sideMenu.style.width='0px';
-    }
+
+openFunMenu.onclick=function(){
+    funMenu.style.width='250px';
 }
 
-function openFunctionMenu(){
-    document.getElementById('funSideMenu').style.width='250px';
+closeFunMenu.onclick=function(){
+    funMenu.style.width='0px';
 }
-function closeFunctionMenu(){
-    document.getElementById('funSideMenu').style.width='0'
-}
+
 
 /*var form=document.getElementById("modalForm");
 var button=document.getElementById("button");

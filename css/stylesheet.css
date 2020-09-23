@@ -60,14 +60,10 @@ body{
     font-weight: 600;
 }
 
-.callAction span{
-    background-color: #ddd;
-}
-
 .call-menu{
     position: absolute;
     float: right;
-    height: 250px;
+    height: 150px;
     width: 0;
     z-index: 1;
     top: 0;
@@ -90,8 +86,21 @@ body{
     display: block;
     transition: 0.3s;
     float: center;
+    text-align: right;
+}
+.call-menu a:hover{
+    background-color: burlywood;
+    color: #111;
 }
 
+.call-menu .cls-btn{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 36px;
+    margin-right:50px;
+    padding: 5px 15px;
+}
 .side-nav{
     height: 250px;
     width: 0;
