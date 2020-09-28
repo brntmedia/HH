@@ -181,7 +181,7 @@ body{
 }
 .cards ul{
     display: inline-block;
-    
+    color: green;
     padding: 0;
 }
 .quote{
